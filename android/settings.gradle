@@ -1,0 +1,5 @@
+rootProject.name = 'LoudnessDisplay'
+include ':react-native-loudness'
+project(':react-native-loudness').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-loudness/android')
+
+include ':app'
